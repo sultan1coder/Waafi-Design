@@ -1,0 +1,92 @@
+.part-1 {
+    display: grid;
+}
+.part-1 .btn {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.part-1 .btn .ones {
+    background-color: #fff;
+    border: 1px solid #e9e6e6;
+    border-radius: 10px;
+    width: 290px;
+    height: 320px;
+}
+.part-1 .btn .ones img {
+    width: 100px;
+    height: 100px;
+    border-radius: 99px;
+    border: 1px solid #000;
+    padding: 0;
+    margin-top: 2rem;
+    margin-bottom: .8rem;
+}
+.part-1 .btn .ones h1 {
+    font-size: 18px;
+}
+.part-1 .btn .ones h2{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 6px;
+}
+.part-1 .btn .ones p {
+    text-align: start;
+    line-height: 1.4;
+    margin-top: 10px;
+    margin-left: 2rem;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.part-1 .text h1{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-left: 5rem;
+}
+.part-1 .text p {
+    text-align: center;
+    line-height: 1.4;
+    margin-top: 10px;
+}
+
+.part-2 h1 {
+    text-align: center;
+    margin-top: 2rem;
+}
+.part-2 .text {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 5rem;
+}
+.part-2 .text p {
+    cursor: pointer;
+    font-size: 14px;
+}
+.part-2 .text .p1 {
+    color: green;
+}
+.part-2 .text-2 h2 {
+    text-align: left;
+    position: relative;
+    left: 12rem;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.part-2 .text-2 p {
+    position: relative;
+    left: 12rem;
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    .part-1 {
+        display: grid;
+    }
+    .part-1 .btn {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+    }
+}
