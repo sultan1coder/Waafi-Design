@@ -1,0 +1,297 @@
+header {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 100px;
+    z-index: 99px;
+}
+
+header nav {
+    display: flex;
+    gap: 15px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+header nav a:hover {
+    color: green;
+}
+
+header .logo {
+    cursor: pointer;
+}
+
+header .btn-download button {
+    padding: 12px 17px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 99px;
+    cursor: pointer;
+}
+
+header .btn-download button:hover {
+    background-color: #edebeb;
+}
+
+header .menu-icon button {
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    transform: scaleX(0);
+    cursor: pointer;
+}
+
+.item-left {
+    transform: translateX(-20%);
+    opacity: 0;
+    margin-top: 90px;
+    visibility: hidden;
+    width: 80%;
+    background: #fff;
+    z-index: 1;
+    transition: transform .5s, visibility .5s, opacity .5s;
+}
+
+.item-left button {
+    padding: 12px 17px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 99px;
+    cursor: pointer;
+}
+
+.item-left button:hover {
+    background-color: #edebeb;
+}
+
+.item-left nav {
+    position: relative;
+    /* top: 5rem; */
+    left: 1rem;
+    display: grid;
+    gap: 10px;
+}
+
+.item-left nav a {
+    color: #000;
+    text-decoration: none;
+}
+
+.item-left.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+@media (max-width: 1024px) {
+    header .menu-icon button {
+        transform: scale(1);
+        transform: translateX(8rem);
+    }
+
+    header {
+        padding: 15px 20px;
+    }
+
+    header nav a,
+    header .btn-download button {
+        display: none;
+    }
+
+    .hero-section .image-section {
+        display: none;
+    }
+
+    .hero-section-2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .hero-section-2 .btn-6 {
+        grid-template-columns: repeat(1, 3fr);
+    }
+
+    .center-image {
+        flex-direction: column;
+    }
+}
+
+
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4FAEF;
+    height: 40rem;
+    width: 90%;
+    position: relative;
+    bottom: 10rem;
+    left: 4rem;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.hero-section .text-section h1 {
+    font-size: 50px;
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+    text-align: center;
+}
+
+.hero-section .text-section h2 {
+    font-size: 54px;
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+    text-align: center;
+}
+
+.hero-section .text-section p {
+    text-align: start;
+    font-size: 18px;
+    position: relative;
+    left: 5px;
+    bottom: 15px;
+    line-height: 1.4;
+}
+
+.learn button {
+    padding: 13px 30px;
+    border: #000 solid 1px;
+    border-radius: 99px;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: #F4FAEF;
+    font-weight: 500;
+}
+
+.image-section {
+    display: flex;
+    position: relative;
+    top: 3rem;
+    width: 50%;
+}
+
+.image-section .one {
+    position: relative;
+    gap: 55px;
+}
+
+.image-section .one .img1 {
+    width: 90%;
+    border-radius: 10px;
+}
+
+.image-section .one {
+    display: grid;
+}
+
+.image-section .two {
+    gap: 5rem;
+}
+
+.image-section .two .voice-one {
+    position: relative;
+    bottom: 50px;
+}
+
+.image-section .two .voice-two {
+    position: relative;
+    bottom: 20px;
+}
+
+.hero-section-2 .text {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.hero-section-2 .text h2 {
+    font-size: 45px;
+    position: relative;
+    bottom: 40px;
+}
+
+.hero-section-2 .text p {
+    position: relative;
+    bottom: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.btn-6 {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    place-items: center;
+    gap: 25px;
+}
+
+.btn-6 .one {
+    border: rgb(152, 150, 150) solid 1px;
+    border-radius: 10px;
+    width: 80%;
+    height: 45vh;
+    padding: 25px;
+}
+
+.btn-6 .one img {
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.btn-6 .one h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.btn-6 .one p {
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 0;
+}
+
+/* CENTER IMAGE */
+.center-image {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #131314;
+    width: 80%;
+    margin-top: 60px;
+    position: relative;
+    left: 5rem;
+    /* top: 20px; */
+    border-radius: 15px;
+}
+
+.center-image img {
+    width: 350px;
+}
+
+.center-image .text {
+    position: relative;
+    left: 50px;
+}
+
+.center-image .text h3 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 60px;
+    line-height: 1.4;
+}
+
+.center-image .text p {
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 1.4;
+}

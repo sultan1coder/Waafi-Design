@@ -1,0 +1,186 @@
+.part-1 {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.part-1 h1 {
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.part-1 p {
+    margin-top: 1.2rem;
+}
+
+.part-1 img {
+    width: 30%;
+    padding: 1rem;
+}
+
+.part-1 h2 {
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.part-1 .img2 {
+    width: 60%;
+}
+
+.part-2 {
+    display: grid;
+}
+
+.part-2 .mobile {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.part-2 .text h2,
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.part-2 .text h2 {
+    font-size: 2.8rem;
+    font-weight: 550;
+}
+
+.part-2 .mobile .one {
+    background-color: #f5f2f2;
+    border-radius: 15px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.part-2 .mobile .one img {
+    width: 70%;
+    margin-top: 20px;
+}
+
+.part-2 .mobile .one p {
+    line-height: 1.4;
+}
+
+.part-3 .text {
+    display: grid;
+    margin-top: 3rem;
+}
+
+.part-3 .text h1,
+p {
+    text-align: start;
+    margin-left: 6rem;
+}
+
+.part-3 .text h1 {
+    margin-bottom: 15px;
+}
+
+.part-3 .text p {
+    border-bottom: #d7d5d5 solid 1px;
+    padding: 15px 0;
+    margin-top: 0;
+}
+
+.part-4 {
+    display: grid;
+    place-items: center;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.part-4 .one {
+    display: flex;
+}
+
+.part-4 .one .text {
+    margin: 0;
+    margin-top: 10rem;
+    position: relative;
+    top: 5rem;
+}
+
+.part-4 .one .text h1 {
+    font-size: 2.8rem;
+    line-height: 1.2;
+}
+
+.part-4 .one .text p {
+    margin: 0;
+    position: relative;
+    top: 20px;
+    line-height: 1.4;
+}
+
+.part-4 .one img {
+    width: 55%;
+}
+
+.part-4 .two {
+    display: flex;
+    margin-top: 3rem;
+    place-items: center;
+    margin-left: 6rem;
+}
+
+.part-4 .two .text {
+    margin-bottom: 3rem;
+}
+
+.part-4 .two .text h1 {
+    font-size: 2.2rem;
+    text-align: start;
+    margin-left: 6rem;
+}
+
+.part-4 .two .text span {
+    color: green;
+
+}
+
+.part-4 .two img {
+    width: 40%;
+}
+
+@media (max-width: 1024px) {
+    .part-1 .img2 {
+        width: 80%;
+    }
+
+    .part-1 img {
+        width: 67%;
+    }
+
+    .part-2 .mobile {
+        display: grid;
+        grid-template-columns: repeat(1, 3fr);
+    }
+
+    .part-4 .one {
+        display: grid;
+        grid-template-columns: repeat(1, 3fr);
+    }
+
+    .part-4 .one img {
+        width: 100%;
+    }
+
+    .part-4 .one .text,
+    .part-4 .one .text p {
+        text-align: center;
+        margin-bottom: 4rem;
+        margin-top: 0;
+    }
+
+    .part-4 .two {
+        display: grid;
+    }
+
+    .part-4 .two img {
+        width: 100%;
+        margin-top: 1rem;
+    }
+}
