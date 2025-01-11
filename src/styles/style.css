@@ -55,6 +55,7 @@ header .menu-icon button {
     margin-top: 90px;
     visibility: hidden;
     width: 80%;
+    /* height: 100vh; */
     background: #fff;
     z-index: 1;
     transition: transform .5s, visibility .5s, opacity .5s;
@@ -88,6 +89,7 @@ header .menu-icon button {
 .item-left.show {
     opacity: 1;
     visibility: visible;
+    height: 100vh;
     transform: translateX(0);
 }
 
@@ -137,7 +139,7 @@ header .menu-icon button {
     bottom: 10rem;
     left: 4rem;
     border-radius: 10px;
-    z-index: 1;
+    z-index: -1;
 }
 
 .hero-section .text-section h1 {
@@ -160,7 +162,8 @@ header .menu-icon button {
     text-align: start;
     font-size: 18px;
     position: relative;
-    left: 5px;
+    /* left: 5px; */
+    margin: 0;
     bottom: 15px;
     line-height: 1.4;
 }
@@ -226,6 +229,7 @@ header .menu-icon button {
     bottom: 20px;
     font-weight: 300;
     line-height: 1.4;
+    text-align: center;
 }
 
 .btn-6 {

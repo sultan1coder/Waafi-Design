@@ -10,11 +10,14 @@
 
 .part-1 p {
     margin-top: 1.2rem;
+    text-align: center;
+    margin-right: 5rem;
 }
 
 .part-1 img {
     width: 30%;
     padding: 1rem;
+    margin: auto;
 }
 
 .part-1 h2 {
@@ -24,6 +27,7 @@
 
 .part-1 .img2 {
     width: 60%;
+    margin-left: 15rem;
 }
 
 .part-2 {
@@ -147,7 +151,8 @@ p {
 
 @media (max-width: 1024px) {
     .part-1 .img2 {
-        width: 80%;
+        width: 90%;
+        margin: auto;
     }
 
     .part-1 img {

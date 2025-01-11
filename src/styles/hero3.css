@@ -12,7 +12,7 @@
     border: 1px solid #e9e6e6;
     border-radius: 10px;
     width: 290px;
-    height: 320px;
+    height: 350px;
 }
 .part-1 .btn .ones img {
     width: 100px;
@@ -37,7 +37,7 @@
     margin-top: 10px;
     margin-left: 2rem;
     font-weight: 100;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .part-1 .text h1{
@@ -113,9 +113,37 @@
     border-radius: 10px;
 }
 .part-3 .boxes img {
-    width: 70px;
-    margin-left: 7rem;
+    width: 65px;
+    /* margin-left: 7rem; */
     margin-top: 2rem;
+}
+.part-3 .boxes {
+    text-align: center;
+}
+.part-3 .boxes h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.part-3 .boxes p{
+   margin: 0;
+   font-size: 14px;
+   line-height: 1.4;
+   margin-left: 10px;
+   word-spacing: 6px;
+   margin-top: 10px;
+}
+.part-3 .waafi {
+    text-align: center;
+    margin-top: 3rem;
+}
+.part-3 .waafi span {
+    color: #0DBD8B;
+}
+.part-3 .waafi p {
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    line-height: 1.4;
 }
 
 @media (max-width: 1024px) {

@@ -76,7 +76,7 @@ function Hero3() {
             </div>
             <div className="waafi">
                 <h1>WAAFI <br /><span>DOWNLOAD</span></h1>
-                <p>WAAFI is your new life-style combining mobile money, communication, entertainment and productivity in a unified app.</p>
+                <p>WAAFI is your new life-style combining mobile money, <br />communication, entertainment and productivity in a unified app.</p>
             </div>
         </div>
         </>
