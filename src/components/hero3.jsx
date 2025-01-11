@@ -50,11 +50,33 @@ function Hero3() {
                 <p>Our mission at Waafi is to provide everybody a secure and reliable cashless mobile payment platform with outstanding <br /> user experience that acts like a companion that simplifies your life.</p>
                 
                 <h2>Our Vision</h2>
-                <p>
-                To become the consumer&qoute;s first choice as a service that can withstand their daily online payment needs – a true <br /> companion. To make the Waafi brand a household name, synonymous with reliability, efficiency and security</p>
+                <p>To become the consumer&qoute;s first choice as a service that can withstand their daily online payment needs – a true <br /> companion. To make the Waafi brand a household name, synonymous with reliability, efficiency and security</p>
 
                 <h2>Our Values</h2>
                 <p>From the very start, we shaped our organization around the same values and culture Waafi was founded on. We believe, <br /> creating an environment for openness and cooperation for our employees within the company leads to more innovation <br /> and growth which in turn produces a better service for our customers</p>
+            </div>
+        </div>
+        <div className="part-3">
+            <div className="boxes">
+                <div className="one">
+                    <img src="https://page.waafi.com/_next/static/media/mission.b34b7319.svg" alt="" />
+                    <h2>Mission</h2>
+                    <p>Our mission at Waafi is to provide <br /> everybody a secure and reliable <br /> cashless mobile payment platform <br /> with outstanding user experience that <br /> acts like a companion that simplifies <br /> your life.</p>
+                </div>
+                <div className="two">
+                    <img src="https://page.waafi.com/_next/static/media/vision.bfc1abbe.svg" alt="" />
+                    <h2>Vission</h2>
+                    <p>To become the consumer&qout;s first <br /> choice as a service that can <br /> withstand their daily online payment <br /> needs – a true companion. To make <br /> the Waafi brand a household name, <br /> synonymous with reliability, efficiency <br />and security</p>
+                </div>
+                <div className="three">
+                    <img src="https://page.waafi.com/_next/static/media/goals.d5c110fc.svg" alt="" />
+                    <h2>Goals</h2>
+                    <p>From the very start, we shaped our <br /> organization around the same values <br />and culture Waafi was founded on. We <br />believe, creating an environment for <br />openness and cooperation for our <br />employees within the company leads <br />to more innovation and growth which <br />in turn produces a better service for <br />our customers</p>
+                </div>
+            </div>
+            <div className="waafi">
+                <h1>WAAFI <br /><span>DOWNLOAD</span></h1>
+                <p>WAAFI is your new life-style combining mobile money, communication, entertainment and productivity in a unified app.</p>
             </div>
         </div>
         </>

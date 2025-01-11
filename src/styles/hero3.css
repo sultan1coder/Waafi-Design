@@ -67,17 +67,55 @@
 .part-2 .text .p1 {
     color: green;
 }
-.part-2 .text-2 h2 {
+.part-2 .text-2 p {
+    display: grid;
+    place-items: center;
     text-align: left;
     position: relative;
-    left: 12rem;
     margin-bottom: 5px;
+    margin-top: 10px;
+    line-height: 1.4;
+}
+.part-2 .text-2 h2{
+    margin-left: 12.5rem;
     margin-top: 10px;
 }
 .part-2 .text-2 p {
     position: relative;
-    left: 12rem;
-    margin: 0;
+    margin-left: 0;
+}
+
+.part-3 {
+    display: grid;
+}
+.part-3 .boxes {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.part-3 .boxes .one {
+    background-color: #EDF5F6;
+    width: 23%;
+    height: 350px;
+    border-radius: 10px;
+}
+.part-3 .boxes .two {
+    background-color: #FFEEEE;
+    width: 23%;
+    height: 350px;
+    border-radius: 10px;
+}
+.part-3 .boxes .three {
+    background-color: #FFF4D6;
+    width: 23%;
+    height: 350px;
+    border-radius: 10px;
+}
+.part-3 .boxes img {
+    width: 70px;
+    margin-left: 7rem;
+    margin-top: 2rem;
 }
 
 @media (max-width: 1024px) {
